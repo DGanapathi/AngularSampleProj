@@ -1,0 +1,4 @@
+{
+    "appService.defaultWebAppToDeploy": "/subscriptions/7cf9e4b8-ea81-41cc-bd48-3e82c6eb4285/resourceGroups/RGAZ/providers/Microsoft.Web/sites/GaniWebAppUI",
+    "appService.deploySubpath": "dist - npm run-script build --prod\\MyProject"
+}

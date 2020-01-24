@@ -1,0 +1,21 @@
+<div class="container">
+  <div class="row">
+      <h2>User Details</h2>
+    <table class="table table-bordered">
+      <thead>
+        <tr class="alert-success">
+          <th>User ID</th>
+          <th>Name</th>
+          <th>Address</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let user of Users">
+          <td>{{user.ID}}</td>
+          <td>{{user.FirstName + ' ' + user.LastName}}</td>
+          <td>{{user.Address}}</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
